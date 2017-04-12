@@ -4,9 +4,8 @@ var navbar = require('./components/navbar.js');
 
 
 var vm = new Vue({
-	el: '.container',
+	el: '.header',
 	components:{
 		navbar: navbar
 	}
 })
-

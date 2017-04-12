@@ -16,7 +16,7 @@ gulp.task('build-vue', function() {
         .pipe(gulp.dest('./scripts/components/'));
 });
 
-gulp.task('build-js', ['build-vue'], function() {
+gulp.task('build-js', function() {
 	gulp.src('./scripts/main.js')
         .pipe(browserify())
 		.pipe(gulp.dest('./dist/script/'));
@@ -35,12 +35,12 @@ gulp.task('build-images', function() {
         .pipe(gulp.dest('./dist/images/'));
 });
 
-gulp.task('watcher',['build-css', 'build-js', 'build-html',
-                         'build-images', 'build-vue'], function() {
+gulp.task('watcher',['build-css', 'build-vue', 'build-html',
+                         'build-images', 'build-js'], function() {
     gulp.watch('./sass/**/*.scss', ['build-css']);
     gulp.watch('./scripts/**/*.js', ['build-js']);
     gulp.watch('index.html', ['build-html']);
-    gulp.watch('./components/**/*.vue', ['build-js']);
+    gulp.watch('./components/**/*.vue', ['build-vue']);
     gulp.watch('./dist/**/*').on('change', browserSync.reload);
 });
 

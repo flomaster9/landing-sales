@@ -1,0 +1,39 @@
+
+@import "./helpers/variables";
+@import "./base/reset";
+@import "./sections/header";
+
+
+body{
+	height: 3000px;
+}
+
+
+
+
+.container{
+	max-width:1140px;
+	display: flex;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+
+	@media (max-width:1200px) {
+		.container{
+			width:940px;
+		}
+	}
+
+	@media (max-width:991px) {
+		.container{
+			width:720px;
+		}
+	}
+
+	@media (max-width:768px) {
+		.container{
+			width:94%;
+			padding:0 3%;
+		}
+	}
