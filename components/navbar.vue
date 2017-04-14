@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="navbar-logo"><a href="#">Sales</a></div>
 			<button class="navbar-toggle"
-				@click="toggleNav($event)"><i class="fa fa-bars toggler"></i></button>
+				@click="toggleNav"><i class="fa fa-bars toggler"></i></button>
 			<ul class="nav nav-none">
 				<li v-for='item in navlinks.length' :key='item-1'>
 					<a href="#" 
 					:class="{active: (curActive == item-1 && isEnabled)}"
-					@click="activeNav($event)">
+					@click="activeNav(item-1)">
 						{{navlinks[item-1]}}</a>
 				</li>
 			</ul>
@@ -43,16 +43,10 @@
 		},
 
 		methods: {
-			activeNav: function(event) {
-				for(a in this.navlinks){
-					if (event.target.textContent.trim() != this.navlinks[a]) 
-						continue;
-					this.curActive = a;
-					break;
-				}
-				event.preventDefault();
+			activeNav: function(item) {
+				this.curActive = item;
 			},
-			toggleNav: function(event) {
+			toggleNav: function() {
 				document.querySelector('.nav').classList.toggle('nav-none');
 			}
 		},
@@ -69,7 +63,7 @@
 	$active-color: #00A8D6;
 
 	.navbar{
-		z-index: 2000;
+		z-index: 1000;
 		width: 100%;
 		position: fixed;
 		left: 0px;

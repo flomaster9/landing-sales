@@ -1,13 +1,15 @@
 var Vue = require('../node_modules/vue/dist/vue.min.js');
 var navbar = require('./components/navbar.js');
 var offers = require('./components/offers-list.js');
+var portfolio = require('./components/portfolio.js');
 
 
 
 var vm = new Vue({
-	el: '.header',
+	el: '.body',
 	components:{
 		navbar: navbar,
+		portfolio: portfolio,
 	},
 	data:{
 		offersList: offers.items,

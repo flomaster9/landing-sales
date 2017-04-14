@@ -3,16 +3,14 @@
 @import "./helpers/mixins";
 @import "./base/reset";
 @import "./base/fonts";
-@import "./sections/header";
-@import "./sections/intro";
+@import "./components/form";
+@import "./components/headline";
 @import "./media/main";
 @import "./media/intro";
-@import "./components/form";
+@import "./sections/header";
+@import "./sections/intro";
+@import "./sections/portfolio";
 
-
-body{
-	height: 3000px;
-}
 
 .container{
 	display: flex;
