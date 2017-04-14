@@ -1,0 +1,17 @@
+@mixin offersList($color){
+	li{
+		display: flex;
+		font-size: 0.9em;	
+		color: $color;
+			&:nth-child(odd){
+				font-weight: bold;
+			}
+		}
+
+		i{
+			margin: auto 0;
+			font-size: 1.8em;
+			color: $check-ok-color;
+			padding-right: 20px;
+		}
+}

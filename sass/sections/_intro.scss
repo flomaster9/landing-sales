@@ -1,0 +1,39 @@
+.intro{
+	.container{
+		padding: 110px 0;
+	}
+
+	.intro-text{		
+		padding: 0px 10px 0 0;
+
+		h1{
+			font-weight: 100;
+			font-size: 3.1em;
+			color: white;
+			border-bottom: 1px solid rgba($h-border-color,.3);
+			padding-bottom: 10px;
+		}
+
+		p{
+			font-size: 0.9em;
+			padding: 10px 0;
+		}
+		
+		.intro-offers{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.offers-list{
+			padding: 5px;
+			@include offersList($main-font-color);
+		}
+	}
+
+	.intro-form{
+		width: 50%;
+		padding: 10px;
+	}
+}
+
+	

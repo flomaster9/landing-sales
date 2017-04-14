@@ -4,11 +4,49 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="https://use.fontawesome.com/241a25b3f7.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,700,800&amp;subsetting=all" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 	<header class="header">	
 		<navbar></navbar>
+
+		<section class="intro">
+			<div class="container">
+				<div class="intro-text">
+					<h1><strong>Increase</strong> Conversion Rates</h1>
+					<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+					
+					<div class="intro-offers">
+						<ul class="offers-list">
+							<li v-for="item in offersList">
+								<i class="fa fa-check-circle" aria-hidden="true"></i>{{item}}
+							</li>
+						</ul>
+
+						<ul class="offers-list">
+							<li v-for="item in offersList">
+								<i class="fa fa-check-circle" aria-hidden="true"></i>{{item}}
+							</li>
+						</ul>
+					</div>
+
+		
+				</div>
+				<div class="intro-form">
+					<form action="" @submit.prevent class="form">
+						<h2>Start Your <strong>FREE</strong> Trial</h2>
+						<input type="text" v-model="introName" required placeholder="Your Name">
+						
+						<input type="text" v-model="introEmail" required placeholder="Your e-mail">
+						<input type="text" v-model="introPhone" required placeholder="Your Phone">
+						<div><input type="submit" @click="startIntroPreload" value="Get Your Free Trial"></div>
+						<p v-show="sendingIntroForm"><i class="fa fa-spinner fa-spin fa-2x"></i> Please Wait...</p>
+					</form>	
+				</div>
+			</div>
+		</section>
 	</header>
 	
 </body>

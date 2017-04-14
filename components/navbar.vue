@@ -69,6 +69,7 @@
 	$active-color: #00A8D6;
 
 	.navbar{
+		z-index: 2000;
 		width: 100%;
 		position: fixed;
 		left: 0px;
@@ -93,7 +94,7 @@
 
 		.navbar-logo{
 			font-weight: bold;
-			font-size: 1.8em;
+			font-size: 2em;
 		}
 
 		.nav{
@@ -101,6 +102,7 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+			margin: auto 0;
 			transition: all .4s;
 		}
 
@@ -109,7 +111,7 @@
 		}
 
 		a{
-			font-size:0.9em;
+			font-size:0.95em;
 			color: white;
 			text-decoration: none;
 			padding:15px 10px;
