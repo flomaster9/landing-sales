@@ -2,7 +2,7 @@ var Vue = require('../node_modules/vue/dist/vue.min.js');
 var navbar = require('./components/navbar.js');
 var offers = require('./components/offers-list.js');
 var portfolio = require('./components/portfolio.js');
-
+var snippets = require('./components/snippets.js');
 
 
 var vm = new Vue({
@@ -10,6 +10,7 @@ var vm = new Vue({
 	components:{
 		navbar: navbar,
 		portfolio: portfolio,
+		snippets: snippets
 	},
 	data:{
 		offersList: offers.items,

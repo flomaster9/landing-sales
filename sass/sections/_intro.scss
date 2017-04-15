@@ -1,6 +1,6 @@
 .intro{
 	.container{
-		padding: 110px 0;
+		padding-top: 30px;
 	}
 
 	.intro-text{		
@@ -17,6 +17,7 @@
 		p{
 			font-size: 0.9em;
 			padding: 10px 0;
+			color: rgba(white,0.9);
 		}
 		
 		.intro-offers{
@@ -26,7 +27,7 @@
 
 		.offers-list{
 			padding: 5px;
-			@include offersList($main-font-color);
+			@include offersList(white);
 		}
 	}
 

@@ -186,6 +186,7 @@
 
 		.link-enter, .link-leave-to{
 			bottom: 100%;
+			opacity: 0;
 		}
 
 		.link-enter-active,.link-leave-active,
@@ -196,14 +197,17 @@
 
 		a,.link-enter-to,.link-leave{
 			bottom: 55%;
+			opacity: 1;
 		}
 
 		.desc-enter, .desc-leave-to{
 			top: 100%;
+			opacity: 0;
 		}
 
 		p,.desc-enter-to,.desc-leave{
 			top: 45%;
+			opacity: 1;
 		}
 
 		.overlay-enter, .overlay-leave-to{
