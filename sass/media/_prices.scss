@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+	.prices{
+		.packages{
+			flex-direction: column;
+			.package{
+				margin: 10px auto!important;
+			}
+		}
+	}
+}

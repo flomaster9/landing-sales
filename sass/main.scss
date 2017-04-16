@@ -3,23 +3,17 @@
 @import "./helpers/mixins";
 @import "./base/reset";
 @import "./base/fonts";
+@import "./base/custom";
 @import "./components/form";
 @import "./components/headline";
-@import "./media/main";
+@import "./media/custom";
 @import "./media/intro";
+@import "./media/prices";
 @import "./sections/header";
 @import "./sections/intro";
 @import "./sections/portfolio";
 @import "./sections/snippets";
 @import "./sections/testimonials";
+@import "./sections/prices";
 
 
-.container{
-	display: flex;
-	margin: 0 auto;
-	padding: 0px 15px;
-}
-
-section{
-	padding: 80px 0;
-}

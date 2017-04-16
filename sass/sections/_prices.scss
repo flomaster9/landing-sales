@@ -1,0 +1,95 @@
+.prices{
+	background-color: $section-bg-color;
+	.container{
+		flex-direction: column;
+	}
+
+	.packages{
+		display: flex;
+		justify-content: center;
+		.package{
+			box-shadow: 0px 2px 20px 0px rgba(black,0.3);
+			width: 90%;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.package-headline{
+			color: white;
+			background-color: black;
+			padding: 30px 10px;
+			text-align: center;
+		}
+
+		.package-price{
+			color: white;
+			background-color: rgba(black,0.8);
+			padding: 40px 10px;
+			text-align: center;
+			font-size: 2em;
+			span{
+				font-weight: 100;
+				font-size: 0.8em;
+			}
+		}
+
+		.package-desc{
+			padding: 20px;
+			background-color: $section-bg-color;
+		}
+
+		.package-features{
+			background-color: white;
+			padding: 10px 20px;
+			li{
+				display: flex;
+				justify-content: space-between;
+				padding: 20px 10px;
+				border-bottom: 1px solid $section-bg-color;
+			}
+			i{
+				padding:5px;
+				margin: auto 0;
+				float: right;
+				color: $check-ok-color;
+			}
+		}
+
+		.package-button{
+			padding: 20px 0;
+			background-color: black;
+			display: flex;
+			.button{
+				@include custom-buttons(white, black, white,
+						$active-color, white, white);
+			}
+		}
+
+		.gold-package{
+			z-index: 100;
+			.package-headline, .package-button{
+				background-color: #1166A0;
+			}
+
+			.package-price{
+				background-color: #1A9FF9;
+			}
+
+			.button{
+				@include custom-buttons(white, transparent, white,
+						$active-color, white, white);
+			}
+			
+		}
+
+		.silver-package, .platinum-package{
+			transition: all .3s;
+			&:hover{
+				transform:
+					translateY(-20px);
+			}
+		}
+
+	}
+}

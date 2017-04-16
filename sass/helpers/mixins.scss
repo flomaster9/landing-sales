@@ -15,3 +15,22 @@
 			padding-right: 20px;
 		}
 }
+
+@mixin custom-buttons($color, $bgc, $bordcolor,
+						$color-hov, $bgc-hov, $bordcolor-hov){
+	color: $color;
+	background-color: $bgc;
+	border: 3px solid $bordcolor;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: auto;
+	text-decoration: none;
+	transition: all 0.5s;
+	font-weight: bold;
+	font-size: .9em;
+	&:hover{
+		color: $color-hov;
+		background-color: $bgc-hov;
+		border: 3px solid $bordcolor-hov;
+	}
+}
