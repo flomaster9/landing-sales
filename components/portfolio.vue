@@ -183,16 +183,15 @@
 		}
 
 
-
-		.link-enter, .link-leave-to{
-			bottom: 100%;
-			opacity: 0;
-		}
-
 		.link-enter-active,.link-leave-active,
 		.desc-enter-active,.desc-leave-active,
 		.overlay-enter-active,.overlay-leave-active{
 			transition: all .3s;
+		}
+
+		.link-enter, .link-leave-to{
+			bottom: 100%;
+			opacity: 0;
 		}
 
 		a,.link-enter-to,.link-leave{

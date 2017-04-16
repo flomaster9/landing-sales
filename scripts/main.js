@@ -3,6 +3,7 @@ var navbar = require('./components/navbar.js');
 var offers = require('./components/offers-list.js');
 var portfolio = require('./components/portfolio.js');
 var snippets = require('./components/snippets.js');
+var slider = require('./components/slider.js');
 
 
 var vm = new Vue({
@@ -10,7 +11,8 @@ var vm = new Vue({
 	components:{
 		navbar: navbar,
 		portfolio: portfolio,
-		snippets: snippets
+		snippets: snippets,
+		slider: slider
 	},
 	data:{
 		offersList: offers.items,

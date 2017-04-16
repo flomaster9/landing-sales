@@ -1,9 +1,9 @@
 <template>
 	<div class="row">
 		<ul class="nav">
-			<li><a @click.prevent="activateNavItem($event, 0)"><i class="fa fa-video-camera"></i> Introductory Video</a></li>
+			<li><a class="active" @click.prevent="activateNavItem($event, 0)"><i class="fa fa-video-camera"></i> Introductory Video</a></li>
 			<li><a @click.prevent="activateNavItem($event, 1)"><i class="fa fa-cube"></i>Random Text</a></li>
-			<li><a class="active" @click.prevent="activateNavItem($event, 2)"><i class="fa fa-group"></i>The Team</a></li>
+			<li><a @click.prevent="activateNavItem($event, 2)"><i class="fa fa-group"></i>The Team</a></li>
 		</ul>
 		<transition name="snippets" mode="out-in">
 			<div class="snippet-container video-snippet"
@@ -105,7 +105,7 @@
 		data: function() {
 			return{
 				prevActiveNav: '',
-				curSelect: 2,
+				curSelect: 0,
 			}
 		},
 		mounted: function() {
