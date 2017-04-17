@@ -1,0 +1,28 @@
+.subscribe{
+	.container{
+		flex-direction: column;
+	}
+	.buttons-container{
+		display: flex;
+		justify-content: center;
+	
+		.btn{
+			margin: 10px 20px;
+		}
+
+
+		.started{
+			@include custom-buttons(white, $active-color, $active-color,
+							white, black, black);
+			margin: 0 10px;
+		}
+
+		.tour{
+			@include custom-buttons($active-color, transparent, rgba($headline-color,.4),
+							white, black, black);
+			margin: 0 10px;
+		}
+
+
+	}
+}

@@ -20,9 +20,9 @@
 						$color-hov, $bgc-hov, $bordcolor-hov){
 	color: $color;
 	background-color: $bgc;
-	border: 3px solid $bordcolor;
+	border: 2px solid $bordcolor;
 	display: inline-block;
-	padding: 15px 20px;
+	padding: 15px 35px;
 	margin: auto;
 	text-decoration: none;
 	transition: all 0.5s;
@@ -31,6 +31,6 @@
 	&:hover{
 		color: $color-hov;
 		background-color: $bgc-hov;
-		border: 3px solid $bordcolor-hov;
+		border: 2px solid $bordcolor-hov;
 	}
 }
