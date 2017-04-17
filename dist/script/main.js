@@ -7232,7 +7232,7 @@ exports.insert = function (css) {
 
 },{}],6:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
-var __vueify_style__ = __vueify_insert__.insert("/* line 11, stdin */\n.intro-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  background-color: rgba(0, 0, 0, 0.5);\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 19, stdin */\n  .intro-form-inside h2 {\n    font-weight: 100;\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 30px;\n    text-align: center;\n    font-size: 1.5em; }\n    /* line 25, stdin */\n    .intro-form-inside h2 strong {\n      color: #fff;\n      font-size: 1.1em; }\n  /* line 31, stdin */\n  .intro-form-inside input {\n    padding: 15px;\n    margin: 8px 30px;\n    background-color: rgba(0, 0, 0, 0.4);\n    border: 1px solid black;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100; }\n  /* line 41, stdin */\n  .intro-form-inside input[type=\"submit\"] {\n    background-color: #00A8D6;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 15px 15px;\n    cursor: pointer;\n    -webkit-transition: all .3s;\n    transition: all .3s; }\n    /* line 49, stdin */\n    .intro-form-inside input[type=\"submit\"]:hover {\n      -webkit-filter: brightness(90%);\n              filter: brightness(90%); }\n  /* line 54, stdin */\n  .intro-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 61, stdin */\n    .intro-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n")
+var __vueify_style__ = __vueify_insert__.insert("/* line 11, stdin */\n.intro-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  background-color: rgba(0, 0, 0, 0.5);\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 19, stdin */\n  .intro-form-inside h2 {\n    font-weight: 100;\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 30px;\n    text-align: center;\n    font-size: 1.5em; }\n    /* line 25, stdin */\n    .intro-form-inside h2 strong {\n      color: #fff;\n      font-size: 1.1em; }\n  /* line 31, stdin */\n  .intro-form-inside input {\n    padding: 15px;\n    margin: 8px 30px;\n    background-color: rgba(0, 0, 0, 0.4);\n    border: 1px solid black;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100; }\n  /* line 41, stdin */\n  .intro-form-inside input[type=\"submit\"] {\n    background-color: #00A8D6;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 15px 15px;\n    cursor: pointer;\n    -webkit-transition: all .3s;\n    transition: all .3s; }\n    /* line 49, stdin */\n    .intro-form-inside input[type=\"submit\"]:hover {\n      -webkit-filter: brightness(90%);\n              filter: brightness(90%); }\n  /* line 54, stdin */\n  .intro-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 61, stdin */\n    .intro-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 69, stdin */\n  .intro-form-inside {\n    width: 100%; }\n    /* line 71, stdin */\n    .intro-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 78, stdin */\n  .intro-form-inside {\n    width: 100%; }\n    /* line 80, stdin */\n    .intro-form-inside h2 {\n      padding: 20px 10px; } }\n")
 'use strict';
 
 module.exports = {
@@ -7262,7 +7262,7 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.dispose(function () {
-    __vueify_insert__.cache["/* line 11, stdin */\n.intro-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  background-color: rgba(0, 0, 0, 0.5);\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 19, stdin */\n  .intro-form-inside h2 {\n    font-weight: 100;\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 30px;\n    text-align: center;\n    font-size: 1.5em; }\n    /* line 25, stdin */\n    .intro-form-inside h2 strong {\n      color: #fff;\n      font-size: 1.1em; }\n  /* line 31, stdin */\n  .intro-form-inside input {\n    padding: 15px;\n    margin: 8px 30px;\n    background-color: rgba(0, 0, 0, 0.4);\n    border: 1px solid black;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100; }\n  /* line 41, stdin */\n  .intro-form-inside input[type=\"submit\"] {\n    background-color: #00A8D6;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 15px 15px;\n    cursor: pointer;\n    -webkit-transition: all .3s;\n    transition: all .3s; }\n    /* line 49, stdin */\n    .intro-form-inside input[type=\"submit\"]:hover {\n      -webkit-filter: brightness(90%);\n              filter: brightness(90%); }\n  /* line 54, stdin */\n  .intro-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 61, stdin */\n    .intro-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n"] = false
+    __vueify_insert__.cache["/* line 11, stdin */\n.intro-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  background-color: rgba(0, 0, 0, 0.5);\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 19, stdin */\n  .intro-form-inside h2 {\n    font-weight: 100;\n    background-color: rgba(0, 0, 0, 0.7);\n    padding: 30px;\n    text-align: center;\n    font-size: 1.5em; }\n    /* line 25, stdin */\n    .intro-form-inside h2 strong {\n      color: #fff;\n      font-size: 1.1em; }\n  /* line 31, stdin */\n  .intro-form-inside input {\n    padding: 15px;\n    margin: 8px 30px;\n    background-color: rgba(0, 0, 0, 0.4);\n    border: 1px solid black;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100; }\n  /* line 41, stdin */\n  .intro-form-inside input[type=\"submit\"] {\n    background-color: #00A8D6;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 15px 15px;\n    cursor: pointer;\n    -webkit-transition: all .3s;\n    transition: all .3s; }\n    /* line 49, stdin */\n    .intro-form-inside input[type=\"submit\"]:hover {\n      -webkit-filter: brightness(90%);\n              filter: brightness(90%); }\n  /* line 54, stdin */\n  .intro-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 61, stdin */\n    .intro-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 69, stdin */\n  .intro-form-inside {\n    width: 100%; }\n    /* line 71, stdin */\n    .intro-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 78, stdin */\n  .intro-form-inside {\n    width: 100%; }\n    /* line 80, stdin */\n    .intro-form-inside h2 {\n      padding: 20px 10px; } }\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
@@ -7456,6 +7456,51 @@ if (module.hot) {(function () {  module.hot.accept()
 })()}
 },{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],11:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
+var __vueify_style__ = __vueify_insert__.insert("/* line 5, stdin */\n.toggler-list li {\n  border-radius: 5px;\n  background-color: #F0F0F0;\n  margin: 15px 0;\n  padding: 10px; }\n  /* line 10, stdin */\n  .toggler-list li h5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: baseline;\n        -ms-flex-align: baseline;\n            align-items: baseline; }\n  /* line 14, stdin */\n  .toggler-list li i {\n    margin-right: 10px;\n    font-size: 1.4em;\n    color: #8FB73C; }\n  /* line 19, stdin */\n  .toggler-list li a {\n    display: inline-block;\n    padding: 10px 0;\n    width: 100%;\n    color: rgba(49, 55, 58, 0.9);\n    font-size: 1.05em;\n    font-weight: bold;\n    text-decoration: none; }\n  /* line 28, stdin */\n  .toggler-list li p {\n    font-size: 0.9em; }\n\n/* line 32, stdin */\n.toggler-list .answer-enter, .toggler-list .answer-leave-to {\n  opacity: 0; }\n\n/* line 36, stdin */\n.toggler-list .answer-enter-active, .toggler-list .answer-leave-active {\n  -webkit-transition: all .3s;\n  transition: all .3s; }\n\n/* line 40, stdin */\n.toggler-list .answer-enter-to, .toggler-list .answer-leave {\n  opacity: 1; }\n")
+'use strict';
+
+module.exports = {
+	data: function data() {
+		return {
+			questions: [{
+				h: 'Lorem ipsum dolor.',
+				p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo esse obcaecati veniam maiores, incidunt earum ipsam numquam est porro neque eveniet, quisquam culpa tempore repudiandae.',
+				opened: true
+			}, {
+				h: 'Lorem ipsum dolor sit amet.',
+				p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quis.',
+				opened: false
+			}, {
+				h: 'Lorem ipsum dolor.',
+				p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo esse obcaecati veniam maiores, incidunt earum ipsam numquam est porro neque eveniet, quisquam culpa tempore repudiandae.',
+				opened: false
+			}]
+		};
+	},
+	methods: {
+		toggler: function toggler(item) {
+			item.opened = !item.opened;
+		}
+	}
+};
+if (module.exports.__esModule) module.exports = module.exports.default
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<ul class=\"toggler-list\">\n\t<li v-for=\"q in questions\" :class=\"{active: q.opened}\">\n\t\t<h5>\n\t\t\t<i class=\"fa\" :class=\"\n\t\t\t\t\t{'fa-minus-square': (q.opened),\n\t\t\t\t\t'fa-plus-square': !q.opened}\"></i>\n\t\t\t<a href=\"#\" @click.prevent=\"toggler(q)\">{{q.h}}</a>\n\t\t</h5>\n\t\t<transition name=\"answer\">\n\t\t\t<p v-show=\"q.opened\">{{q.p}}</p>\n\t\t</transition>\n\t</li>\n</ul>\n"
+if (module.hot) {(function () {  module.hot.accept()
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  module.hot.dispose(function () {
+    __vueify_insert__.cache["/* line 5, stdin */\n.toggler-list li {\n  border-radius: 5px;\n  background-color: #F0F0F0;\n  margin: 15px 0;\n  padding: 10px; }\n  /* line 10, stdin */\n  .toggler-list li h5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: baseline;\n        -ms-flex-align: baseline;\n            align-items: baseline; }\n  /* line 14, stdin */\n  .toggler-list li i {\n    margin-right: 10px;\n    font-size: 1.4em;\n    color: #8FB73C; }\n  /* line 19, stdin */\n  .toggler-list li a {\n    display: inline-block;\n    padding: 10px 0;\n    width: 100%;\n    color: rgba(49, 55, 58, 0.9);\n    font-size: 1.05em;\n    font-weight: bold;\n    text-decoration: none; }\n  /* line 28, stdin */\n  .toggler-list li p {\n    font-size: 0.9em; }\n\n/* line 32, stdin */\n.toggler-list .answer-enter, .toggler-list .answer-leave-to {\n  opacity: 0; }\n\n/* line 36, stdin */\n.toggler-list .answer-enter-active, .toggler-list .answer-leave-active {\n  -webkit-transition: all .3s;\n  transition: all .3s; }\n\n/* line 40, stdin */\n.toggler-list .answer-enter-to, .toggler-list .answer-leave {\n  opacity: 1; }\n"] = false
+    document.head.removeChild(__vueify_style__)
+  })
+  if (!module.hot.data) {
+    hotAPI.createRecord("_v-f0e6be9e", module.exports)
+  } else {
+    hotAPI.update("_v-f0e6be9e", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+  }
+})()}
+},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],12:[function(require,module,exports){
+var __vueify_insert__ = require("vueify/lib/insert-css")
 var __vueify_style__ = __vueify_insert__.insert("/* line 12, stdin */\n.slider {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n  /* line 16, stdin */\n  .slider .slider-item {\n    padding: 10px 10px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column; }\n    /* line 20, stdin */\n    .slider .slider-item img, .slider .slider-item p, .slider .slider-item h4 {\n      margin: auto;\n      padding: 5px;\n      text-align: center; }\n    /* line 25, stdin */\n    .slider .slider-item i {\n      font-size: 1.5em;\n      padding-right: 20px; }\n    /* line 29, stdin */\n    .slider .slider-item h4 {\n      display: inline-block;\n      border-top: 1px solid #31373A;\n      font-size: 0.9em; }\n  /* line 36, stdin */\n  .slider .nav {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    margin: auto; }\n    /* line 39, stdin */\n    .slider .nav li {\n      padding: 2px; }\n    /* line 42, stdin */\n    .slider .nav a {\n      border-radius: 50%;\n      display: inline-block;\n      height: 12px;\n      width: 12px;\n      background-color: #a2a2a3;\n      cursor: pointer; }\n    /* line 50, stdin */\n    .slider .nav .active {\n      background-color: #31373A; }\n  /* line 55, stdin */\n  .slider .slide-enter-active {\n    -webkit-transition: all .7s;\n    transition: all .7s; }\n  /* line 59, stdin */\n  .slider .slide-enter {\n    position: absolute;\n    opacity: 0;\n    -webkit-transform: translateX(20px);\n            transform: translateX(20px); }\n  /* line 66, stdin */\n  .slider .slide-enter-to {\n    opacity: 1; }\n")
 'use strict';
 
@@ -7463,6 +7508,7 @@ module.exports = {
 	data: function data() {
 		return {
 			curActive: 0,
+			clearInterval: 0,
 			persons: [{
 				src: 'images/testi1.png',
 				quote: 'Lorem ipsum dolor sit amet',
@@ -7480,8 +7526,19 @@ module.exports = {
 	},
 	methods: {
 		nextSlide: function nextSlide(num) {
+			clearInterval(this.clearInterval);
 			this.curActive = num;
+			this.startInterval();
+		},
+		autoSlide: function autoSlide() {
+			this.curActive = this.curActive == this.persons.length - 1 ? 0 : this.curActive + 1;
+		},
+		startInterval: function startInterval() {
+			this.clearInterval = setInterval(this.autoSlide, 3000);
 		}
+	},
+	mounted: function mounted() {
+		this.startInterval();
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default
@@ -7500,7 +7557,7 @@ if (module.hot) {(function () {  module.hot.accept()
     hotAPI.update("_v-75e749a6", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],12:[function(require,module,exports){
+},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],13:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
 var __vueify_style__ = __vueify_insert__.insert("/* line 11, stdin */\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n  /* line 14, stdin */\n  .row .nav {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: wrap;\n        flex-wrap: wrap;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 0 auto; }\n    /* line 20, stdin */\n    .row .nav li {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      text-align: center;\n      border: 1px solid #EFEFEF; }\n    /* line 26, stdin */\n    .row .nav a {\n      cursor: pointer;\n      display: block;\n      padding: 20px 60px;\n      color: #31373A;\n      font-weight: bold;\n      text-decoration: none;\n      -webkit-transition: all .3s;\n      transition: all .3s;\n      position: relative;\n      font-size: 0.9em; }\n    /* line 38, stdin */\n    .row .nav a:hover, .row .nav .active {\n      background-color: #00A8D6;\n      color: white; }\n    /* line 43, stdin */\n    .row .nav .active::before {\n      content: '';\n      position: absolute;\n      bottom: -35px;\n      left: 50%;\n      margin-left: -10px;\n      border: 20px solid transparent;\n      border-top: 20px solid #00A8D6; }\n    /* line 53, stdin */\n    .row .nav i {\n      margin-right: 10px; }\n  /* line 58, stdin */\n  .row .snippet-container {\n    padding: 40px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex; }\n  /* line 64, stdin */\n  .row .video-snippet iframe {\n    margin: auto;\n    height: 400px;\n    margin: auto;\n    width: 100%; }\n  /* line 73, stdin */\n  .row .text-snippet div {\n    padding: 10px;\n    width: 50%; }\n  /* line 77, stdin */\n  .row .text-snippet .img-container {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex; }\n    /* line 79, stdin */\n    .row .text-snippet .img-container img {\n      height: 100%;\n      width: auto;\n      margin: auto; }\n  /* line 86, stdin */\n  .row .text-snippet h3 {\n    color: #31373A;\n    font-size: 1.5em; }\n  /* line 90, stdin */\n  .row .text-snippet p, .row .text-snippet ul {\n    color: #7E7A7A;\n    margin-top: 15px;\n    font-size: 0.9em; }\n  /* line 95, stdin */\n  .row .text-snippet li {\n    line-height: 30px;\n    list-style: disc;\n    list-style-position: inside; }\n  /* line 103, stdin */\n  .row .team-snippet {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n        -ms-flex-pack: justify;\n            justify-content: space-between; }\n    /* line 106, stdin */\n    .row .team-snippet .person-detail {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      width: 31%;\n      border: 1px solid #EFEFEF;\n      border-radius: 5px;\n      padding-bottom: 20px;\n      overflow: hidden; }\n    /* line 116, stdin */\n    .row .team-snippet img {\n      width: 100%;\n      margin: 0px 0px auto; }\n    /* line 120, stdin */\n    .row .team-snippet .person-name {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n      /* line 122, stdin */\n      .row .team-snippet .person-name h4 {\n        text-align: center;\n        color: #31373A;\n        padding: 10px 0;\n        margin-bottom: 10px;\n        border-bottom: 1px solid #EFEFEF;\n        display: inline-block;\n        margin: 0 auto 10px; }\n    /* line 132, stdin */\n    .row .team-snippet .person-desc {\n      text-align: center; }\n    /* line 135, stdin */\n    .row .team-snippet .person-social {\n      font-size: 1.5em;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      margin: auto; }\n      /* line 139, stdin */\n      .row .team-snippet .person-social li {\n        margin: 10px 3px;\n        width: 40px;\n        height: 40px;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        border: 1px solid #EFEFEF; }\n      /* line 146, stdin */\n      .row .team-snippet .person-social a {\n        padding: 5px;\n        margin: auto;\n        color: #00A8D6 !important; }\n        /* line 150, stdin */\n        .row .team-snippet .person-social a:hover {\n          -webkit-filter: brightness(40%);\n                  filter: brightness(40%); }\n  /* line 162, stdin */\n  .row .snippets-enter, .row .snippets-leave-to {\n    opacity: 0; }\n  /* line 166, stdin */\n  .row .snippets-enter-active, .row .snippets-leave-active {\n    -webkit-transition: opacity 0.4s;\n    transition: opacity 0.4s; }\n  /* line 170, stdin */\n  .row .snippets-enter-to, .row .snippets-leave {\n    opacity: 1; }\n\n@media (max-width: 991px) {\n  /* line 179, stdin */\n  .snippet-container {\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column; }\n    /* line 181, stdin */\n    .snippet-container.text-snippet div {\n      width: 100%; }\n    /* line 184, stdin */\n    .snippet-container img {\n      margin: auto; }\n  /* line 190, stdin */\n  .team-snippet .person-detail {\n    width: 70% !important;\n    margin: 10px auto; } }\n\n@media (max-width: 768px) {\n  /* line 200, stdin */\n  .nav a {\n    font-size: 0.8em !important; } }\n\n@media (max-width: 480px) {\n  /* line 208, stdin */\n  .text-snippet img {\n    width: 100% !important; }\n  /* line 214, stdin */\n  .team-snippet .person-detail {\n    width: 100% !important; }\n  /* line 218, stdin */\n  .team-snippet .person-social {\n    font-size: 1.1em !important; }\n    /* line 220, stdin */\n    .team-snippet .person-social li {\n      width: 25px !important;\n      height: 25px !important;\n      padding: 5px !important; }\n    /* line 225, stdin */\n    .team-snippet .person-social a {\n      padding: 0px !important; }\n  /* line 232, stdin */\n  .nav a, .nav li {\n    width: 100%; }\n  /* line 235, stdin */\n  .nav .active:before {\n    content: none !important; } }\n")
 'use strict';
@@ -7541,7 +7598,7 @@ if (module.hot) {(function () {  module.hot.accept()
     hotAPI.update("_v-0e85c5c2", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
-},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],13:[function(require,module,exports){
+},{"vue":4,"vue-hot-reload-api":2,"vueify/lib/insert-css":5}],14:[function(require,module,exports){
 var Vue = require('../node_modules/vue/dist/vue.min.js');
 var navbar = require('./components/navbar.js');
 var offers = require('./components/offers-list.js');
@@ -7550,6 +7607,7 @@ var snippets = require('./components/snippets.js');
 var slider = require('./components/slider.js');
 var introForm = require('./components/intro-form.js');
 var middleForm = require('./components/middle-form.js');
+var questions = require('./components/questions.js');
 
 
 var vm = new Vue({
@@ -7561,6 +7619,7 @@ var vm = new Vue({
 		slider: slider,
 		introForm: introForm,
 		middleForm: middleForm,
+		questions: questions,
 	},
 	data:{
 		offersList: offers.items,
@@ -7570,4 +7629,4 @@ var vm = new Vue({
 
 
 
-},{"../node_modules/vue/dist/vue.min.js":3,"./components/intro-form.js":6,"./components/middle-form.js":7,"./components/navbar.js":8,"./components/offers-list.js":9,"./components/portfolio.js":10,"./components/slider.js":11,"./components/snippets.js":12}]},{},[13])
+},{"../node_modules/vue/dist/vue.min.js":3,"./components/intro-form.js":6,"./components/middle-form.js":7,"./components/navbar.js":8,"./components/offers-list.js":9,"./components/portfolio.js":10,"./components/questions.js":11,"./components/slider.js":12,"./components/snippets.js":13}]},{},[14])

@@ -43,12 +43,12 @@ $headline-main-color: #31373A;
 $headline-color: #a2a2a3;
 $lighten-border-color: #EFEFEF;
 	.intro-form-inside{
-	display: flex;
-	width: 100%;
-	flex-direction: column;
-	background-color: rgba(black, .5);
-	position: relative;
-	padding-bottom: 20px;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		background-color: rgba(black, .5);
+		position: relative;
+		padding-bottom: 20px;
 		
 		h2{
 			font-weight: 100;
@@ -98,4 +98,23 @@ $lighten-border-color: #EFEFEF;
 			}	
 		}
 	}
+
+	@media (max-width:991px) {
+		.intro-form-inside{
+			width: 100%;
+			h2{
+				padding: 20px 10px;
+			}
+		}
+	}
+
+	@media (max-width:768px) {
+		.intro-form-inside{
+			width: 100%;
+			h2{
+				padding: 20px 10px;
+			}
+		}
+	}
+
 </style>

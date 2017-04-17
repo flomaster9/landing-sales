@@ -6,6 +6,7 @@ module.exports = {
 	data: function data() {
 		return {
 			curActive: 0,
+			clearInterval: 0,
 			persons: [{
 				src: 'images/testi1.png',
 				quote: 'Lorem ipsum dolor sit amet',
@@ -23,8 +24,19 @@ module.exports = {
 	},
 	methods: {
 		nextSlide: function nextSlide(num) {
+			clearInterval(this.clearInterval);
 			this.curActive = num;
+			this.startInterval();
+		},
+		autoSlide: function autoSlide() {
+			this.curActive = this.curActive == this.persons.length - 1 ? 0 : this.curActive + 1;
+		},
+		startInterval: function startInterval() {
+			this.clearInterval = setInterval(this.autoSlide, 3000);
 		}
+	},
+	mounted: function mounted() {
+		this.startInterval();
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default

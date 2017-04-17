@@ -24,6 +24,7 @@
 		data: function() {
 			return {
 				curActive: 0,
+				clearInterval: 0,
 				persons: [
 					{
 						src: 'images/testi1.png',
@@ -45,8 +46,20 @@
 		},
 		methods: {
 			nextSlide: function(num) {
+				clearInterval(this.clearInterval);
 				this.curActive = num;
+				this.startInterval();
 			},
+			autoSlide: function() {
+				this.curActive = this.curActive == (this.persons.length -1)?
+									0 : this.curActive + 1;
+			},
+			startInterval: function() {
+				this.clearInterval = setInterval(this.autoSlide,3000);
+			}
+		},
+		mounted: function() {
+			this.startInterval();
 		}
 	}
 </script>
