@@ -34,3 +34,21 @@
 		border: 2px solid $bordcolor-hov;
 	}
 }
+
+@mixin custom-headline($h-color: $headline-main-color,
+	 						$p-color: $headline-color,
+	 						$border-color: rgba($headline-color,.4)){
+		h2{
+			color: $h-color;
+			border-bottom: 2px solid $border-color;
+			font-size:2.2em;
+			display: inline-block;
+			padding: 15px;
+			font-weight: 100;
+		}
+		p{
+			font-size:0.9em;
+			color: $p-color;
+			padding: 15px;
+		}
+	}

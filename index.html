@@ -7,13 +7,11 @@
 	<script src="https://use.fontawesome.com/241a25b3f7.js"></script>
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,700,800&amp;subsetting=all" rel="stylesheet" type="text/css">
-	
 </head>
 <body>
 	<div class="body">
 	<header class="header">	
 		<navbar></navbar>
-
 		<section class="intro">
 			<div class="container">
 				<div class="intro-text">
@@ -37,15 +35,7 @@
 		
 				</div>
 				<div class="intro-form">
-					<form action="" @submit.prevent class="form">
-						<h2>Start Your <strong>FREE</strong> Trial</h2>
-						<input type="text" v-model="introName" required placeholder="Your Name">
-						
-						<input type="text" v-model="introEmail" required placeholder="Your e-mail">
-						<input type="text" v-model="introPhone" required placeholder="Your Phone">
-						<div><input type="submit" @click="startIntroPreload" value="Get Your Free Trial"></div>
-						<p v-show="sendingIntroForm"><i class="fa fa-spinner fa-spin fa-2x"></i> Please Wait...</p>
-					</form>	
+					<intro-form></intro-form>	
 				</div>
 			</div>
 		</section>
@@ -76,6 +66,18 @@
 				<snippets></snippets>
 			</div>
 
+		</div>
+	</section>
+
+	<section class="subscriber-form">
+		<div class="container">
+			<div class="headline">
+				<h2><strong>Subscribe</strong> Freely</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste commodi aut nam exercitationem sint itaque magni velit, explicabo unde. Asperiores praesentium amet quibusdam tenetur nam.</p>
+			</div>
+			<div class="middle-form">
+				<middle-form></middle-form>
+			</div>
 		</div>
 	</section>
 

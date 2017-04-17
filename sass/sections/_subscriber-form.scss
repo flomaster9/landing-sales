@@ -1,0 +1,9 @@
+.subscriber-form{
+	background-color: $active-color;
+	.headline{
+		@include custom-headline(white, white, rgba($h-border-color, .2))
+	}
+	.container{
+		flex-direction: column;
+	}
+}

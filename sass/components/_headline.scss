@@ -1,17 +1,5 @@
 .headline{
 	width: 100%;
 	text-align: center;
-	h2{
-		color: $headline-main-color;
-		border-bottom: 2px solid rgba($headline-color,.4);
-		font-size:2.2em;
-		display: inline-block;
-		padding: 15px;
-		font-weight: 100;
-	}
-	p{
-		font-size:0.9em;
-		color: $headline-color;
-		padding: 15px;
-	}
+	@include custom-headline;
 }
