@@ -100,16 +100,16 @@
 			transition: all .4s;
 		}
 
-		.active{
-			color: $active-color!important;
-		}
-
 		a{
 			font-size:0.95em;
 			color: white;
 			text-decoration: none;
 			padding:15px 10px;
 			display:inline-block;
+		}
+
+		a.active{
+			color: $active-color;
 		}
 
 		.navbar-toggle{

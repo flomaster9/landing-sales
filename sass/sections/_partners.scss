@@ -1,0 +1,15 @@
+.partners{
+	padding: 20px;
+	background-color: rgba(black, 0.8);
+	.partners-list{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		li{
+			padding: 0px 10px;
+		}
+		li, img{
+			width: 100%;
+		}
+	}
+}

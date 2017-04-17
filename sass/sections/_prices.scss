@@ -1,5 +1,11 @@
 .prices{
 	background-color: $section-bg-color;
+	h3{
+		font-size: 1.3em;
+		font-weight: 100;
+		text-align: center;
+		padding-top: 50px;
+	}
 	.container{
 		flex-direction: column;
 	}
@@ -24,7 +30,7 @@
 
 		.package-price{
 			color: white;
-			background-color: rgba(black,0.8);
+			background-color: rgba(black,0.9);
 			padding: 40px 10px;
 			text-align: center;
 			font-size: 2em;
@@ -43,13 +49,26 @@
 			background-color: white;
 			padding: 10px 20px;
 			li{
+				font-size: 0.9em;
 				display: flex;
 				justify-content: space-between;
 				padding: 20px 10px;
 				border-bottom: 1px solid $section-bg-color;
+				color: $headline-main-color;
 			}
+
+			.dissabled{
+				span{
+					text-decoration: line-through;
+					color: $headline-color;
+				}
+				i{
+					color: $check-wrong-color;
+				}
+			}
+
 			i{
-				padding:5px;
+				padding:0 5px;
 				margin: auto 0;
 				float: right;
 				color: $check-ok-color;
@@ -58,10 +77,10 @@
 
 		.package-button{
 			padding: 20px 0;
-			background-color: black;
+			background-color: rgba(black,0.9);
 			display: flex;
 			.button{
-				@include custom-buttons(white, black, white,
+				@include custom-buttons(white, transparent, white,
 						$active-color, white, white);
 			}
 		}

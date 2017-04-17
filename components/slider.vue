@@ -3,7 +3,7 @@
 		<transition-group name="slide">
 			<div class="slider-item"
 			v-for="person in persons.length"
-			v-if="curActive == (person-1)"
+			v-show="(curActive == (person-1))"
 			:key="(person-1)">
 				<img :src="persons[curActive].src" alt="">
 				<p><i class="fa fa-quote-left" aria-hidden="true"></i>{{persons[curActive].quote}}</p>
@@ -27,17 +27,17 @@
 				persons: [
 					{
 						src: 'images/testi1.png',
-						quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+						quote: 'Lorem ipsum dolor sit amet',
 						name: 'Someone Famous',
 					},
 					{
 						src: 'images/testi2.png',
-						quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+						quote: 'Lorem ipsum dolor sit amet, ',
 						name: 'Someone Famous',
 					},
 					{
 						src: 'images/testi3.png',
-						quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam.',
+						quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing ',
 						name: 'Someone Famous',
 					},
 				]
@@ -46,7 +46,7 @@
 		methods: {
 			nextSlide: function(num) {
 				this.curActive = num;
-			}
+			},
 		}
 	}
 </script>
@@ -106,10 +106,11 @@ $lighten-border-color: #EFEFEF;
 		}
 
 		.slide-enter-active{
-			transition: all .5s;
+			transition: all .7s;
 		}
 
 		.slide-enter{
+			position: absolute;
 			opacity: 0;
 			transform:
 				translateX(20px);
@@ -118,6 +119,7 @@ $lighten-border-color: #EFEFEF;
 		.slide-enter-to{
 			opacity: 1;
 		}
+		
 
 	}
 	

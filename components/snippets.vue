@@ -269,6 +269,7 @@
 					border: 1px solid $lighten-border-color;
 				}
 				a{
+					padding: 5px;
 					margin: auto;
 					color:$active-color!important;
 					&:hover{
@@ -345,6 +346,9 @@
 					width: 25px!important;
 					height: 25px!important;
 					padding:5px!important;
+				}
+				a{
+					padding: 0px!important;
 				}
 			}
 		}
