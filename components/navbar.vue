@@ -1,15 +1,15 @@
 <template>	
 	<nav class="navbar" :class="{enabled: isEnabled}">
 		<div class="container">
-			<div class="navbar-logo"><a href="#">Sales</a></div>
+			<div class="navbar-logo"><a>Sales</a></div>
 			<button class="navbar-toggle"
 				@click="toggleNav"><i class="fa fa-bars toggler"></i></button>
 			<ul class="nav nav-none">
 				<li v-for='item in navlinks.length' :key='item-1'>
-					<a href="#" 
+					<a :href="navlinks[item-1].id" 
 					:class="{active: (curActive == item-1 && isEnabled)}"
 					@click="activeNav(item-1)">
-						{{navlinks[item-1]}}</a>
+						{{navlinks[item-1].text}}</a>
 				</li>
 			</ul>
 		</div>
@@ -22,13 +22,34 @@
 		data: function() {
 			return{
 				navlinks: [
-					'Home',
-					'Intro',
-					'Portfolio',
-					'Features',
-					'Snippets',
-					'FAQ',
-					'Price'
+					{
+						text: 'Home',
+						id: '#header'
+					},
+					{
+						text: 'Intro',
+						id: '#introductory'
+					 },
+					{
+						text: 'Portfolio',
+						id: '#portfolio'
+					 },
+					{
+						text: 'Features',
+						id: '#features'
+					 },
+					{
+						text: 'Snippets',
+						id: '#snippets'
+					 },
+					{
+						text: 'FAQ',
+						id: '#questions'
+					 },
+					{
+						text: 'Price',
+						id: '#prices' 
+				}
 				],
 				curActive: -1, //текущее активное меню
 				isEnabled: false,

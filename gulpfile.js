@@ -3,7 +3,8 @@ var sass = require('gulp-sass');
 var browserify = require('gulp-browserify');
 var browserSync = require('browser-sync').create();
 var sourcemaps = require('gulp-sourcemaps');
-var vueify = require('gulp-vueify')
+var vueify = require('gulp-vueify');
+var concat = require('gulp-concat');
 
 gulp.task('build-html', function() {
 	gulp.src('index.html')
@@ -17,7 +18,8 @@ gulp.task('build-vue', function() {
 });
 
 gulp.task('build-js', function() {
-	gulp.src('./scripts/main.js')
+	gulp.src('./scripts/*.js')
+        .pipe(concat('main.js'))
         .pipe(browserify())
 		.pipe(gulp.dest('./dist/script/'));
 });

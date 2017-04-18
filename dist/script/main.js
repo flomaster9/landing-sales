@@ -7232,7 +7232,7 @@ exports.insert = function (css) {
 
 },{}],6:[function(require,module,exports){
 var __vueify_insert__ = require("vueify/lib/insert-css")
-var __vueify_style__ = __vueify_insert__.insert("/* line 11, stdin */\n.footer-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 18, stdin */\n  .footer-form-inside input, .footer-form-inside textarea {\n    padding: 10px;\n    margin: 8px 30px 8px 0;\n    background-color: #111;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100;\n    border: none;\n    outline: none; }\n    /* line 27, stdin */\n    .footer-form-inside input:focus, .footer-form-inside textarea:focus {\n      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }\n  /* line 32, stdin */\n  .footer-form-inside input:first-child {\n    margin-top: 20px; }\n  /* line 36, stdin */\n  .footer-form-inside textarea {\n    width: 100%; }\n  /* line 40, stdin */\n  .footer-form-inside input[type=\"submit\"] {\n    background-color: transparent;\n    border: 3px solid white;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 10px 15px;\n    cursor: pointer;\n    -webkit-transition: all .5s;\n    transition: all .5s; }\n    /* line 49, stdin */\n    .footer-form-inside input[type=\"submit\"]:hover {\n      color: black;\n      background-color: white; }\n  /* line 55, stdin */\n  .footer-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 62, stdin */\n    .footer-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 70, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 72, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 79, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 81, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n")
+var __vueify_style__ = __vueify_insert__.insert("/* line 11, stdin */\n.footer-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 18, stdin */\n  .footer-form-inside input, .footer-form-inside textarea {\n    padding: 10px;\n    margin: 8px 30px 8px 0;\n    background-color: #111;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100;\n    border: none;\n    outline: none; }\n    /* line 27, stdin */\n    .footer-form-inside input:focus, .footer-form-inside textarea:focus {\n      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }\n  /* line 32, stdin */\n  .footer-form-inside input:first-child {\n    margin-top: 20px; }\n  /* line 36, stdin */\n  .footer-form-inside textarea {\n    width: 100%; }\n  /* line 41, stdin */\n  .footer-form-inside input[type=\"submit\"] {\n    background-color: transparent;\n    border: 3px solid white;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 10px 15px;\n    cursor: pointer;\n    -webkit-transition: all .5s;\n    transition: all .5s; }\n    /* line 50, stdin */\n    .footer-form-inside input[type=\"submit\"]:hover {\n      color: black;\n      background-color: white; }\n  /* line 56, stdin */\n  .footer-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 63, stdin */\n    .footer-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 71, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 73, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 80, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 82, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n")
 'use strict';
 
 module.exports = {
@@ -7262,7 +7262,7 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.dispose(function () {
-    __vueify_insert__.cache["/* line 11, stdin */\n.footer-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 18, stdin */\n  .footer-form-inside input, .footer-form-inside textarea {\n    padding: 10px;\n    margin: 8px 30px 8px 0;\n    background-color: #111;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100;\n    border: none;\n    outline: none; }\n    /* line 27, stdin */\n    .footer-form-inside input:focus, .footer-form-inside textarea:focus {\n      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }\n  /* line 32, stdin */\n  .footer-form-inside input:first-child {\n    margin-top: 20px; }\n  /* line 36, stdin */\n  .footer-form-inside textarea {\n    width: 100%; }\n  /* line 40, stdin */\n  .footer-form-inside input[type=\"submit\"] {\n    background-color: transparent;\n    border: 3px solid white;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 10px 15px;\n    cursor: pointer;\n    -webkit-transition: all .5s;\n    transition: all .5s; }\n    /* line 49, stdin */\n    .footer-form-inside input[type=\"submit\"]:hover {\n      color: black;\n      background-color: white; }\n  /* line 55, stdin */\n  .footer-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 62, stdin */\n    .footer-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 70, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 72, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 79, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 81, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n"] = false
+    __vueify_insert__.cache["/* line 11, stdin */\n.footer-form-inside {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  position: relative;\n  padding-bottom: 20px; }\n  /* line 18, stdin */\n  .footer-form-inside input, .footer-form-inside textarea {\n    padding: 10px;\n    margin: 8px 30px 8px 0;\n    background-color: #111;\n    font-size: 0.9em;\n    color: white;\n    font-weight: 100;\n    border: none;\n    outline: none; }\n    /* line 27, stdin */\n    .footer-form-inside input:focus, .footer-form-inside textarea:focus {\n      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }\n  /* line 32, stdin */\n  .footer-form-inside input:first-child {\n    margin-top: 20px; }\n  /* line 36, stdin */\n  .footer-form-inside textarea {\n    width: 100%; }\n  /* line 41, stdin */\n  .footer-form-inside input[type=\"submit\"] {\n    background-color: transparent;\n    border: 3px solid white;\n    font-weight: bold;\n    color: white;\n    font-size: 0.9em;\n    padding: 10px 15px;\n    cursor: pointer;\n    -webkit-transition: all .5s;\n    transition: all .5s; }\n    /* line 50, stdin */\n    .footer-form-inside input[type=\"submit\"]:hover {\n      color: black;\n      background-color: white; }\n  /* line 56, stdin */\n  .footer-form-inside .preload {\n    color: white;\n    position: absolute;\n    bottom: -50px;\n    right: 0px;\n    font-size: 0.9em;\n    font-weight: bold; }\n    /* line 63, stdin */\n    .footer-form-inside .preload i {\n      margin-right: 10px;\n      color: #00A8D6; }\n\n@media (max-width: 991px) {\n  /* line 71, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 73, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n\n@media (max-width: 768px) {\n  /* line 80, stdin */\n  .footer-form-inside {\n    width: 100%; }\n    /* line 82, stdin */\n    .footer-form-inside h2 {\n      padding: 20px 10px; } }\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
@@ -7361,7 +7361,28 @@ var __vueify_style__ = __vueify_insert__.insert("/* line 4, stdin */\n.navbar {\
 module.exports = {
 	data: function data() {
 		return {
-			navlinks: ['Home', 'Intro', 'Portfolio', 'Features', 'Snippets', 'FAQ', 'Price'],
+			navlinks: [{
+				text: 'Home',
+				id: '#header'
+			}, {
+				text: 'Intro',
+				id: '#introductory'
+			}, {
+				text: 'Portfolio',
+				id: '#portfolio'
+			}, {
+				text: 'Features',
+				id: '#features'
+			}, {
+				text: 'Snippets',
+				id: '#snippets'
+			}, {
+				text: 'FAQ',
+				id: '#questions'
+			}, {
+				text: 'Price',
+				id: '#prices'
+			}],
 			curActive: -1, //текущее активное меню
 			isEnabled: false
 		};
@@ -7390,7 +7411,7 @@ module.exports = {
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<nav class=\"navbar\" :class=\"{enabled: isEnabled}\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-logo\"><a href=\"#\">Sales</a></div>\n\t\t<button class=\"navbar-toggle\" @click=\"toggleNav\"><i class=\"fa fa-bars toggler\"></i></button>\n\t\t<ul class=\"nav nav-none\">\n\t\t\t<li v-for=\"item in navlinks.length\" :key=\"item-1\">\n\t\t\t\t<a href=\"#\" :class=\"{active: (curActive == item-1 &amp;&amp; isEnabled)}\" @click=\"activeNav(item-1)\">\n\t\t\t\t\t{{navlinks[item-1]}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n</nav>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<nav class=\"navbar\" :class=\"{enabled: isEnabled}\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-logo\"><a>Sales</a></div>\n\t\t<button class=\"navbar-toggle\" @click=\"toggleNav\"><i class=\"fa fa-bars toggler\"></i></button>\n\t\t<ul class=\"nav nav-none\">\n\t\t\t<li v-for=\"item in navlinks.length\" :key=\"item-1\">\n\t\t\t\t<a :href=\"navlinks[item-1].id\" :class=\"{active: (curActive == item-1 &amp;&amp; isEnabled)}\" @click=\"activeNav(item-1)\">\n\t\t\t\t\t{{navlinks[item-1].text}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n</nav>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -7525,7 +7546,7 @@ module.exports = {
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<ul class=\"toggler-list\">\n\t<li v-for=\"q in questions\" :class=\"{active: q.opened}\">\n\t\t<h5>\n\t\t\t<i class=\"fa\" :class=\"\n\t\t\t\t\t{'fa-minus-square': (q.opened),\n\t\t\t\t\t'fa-plus-square': !q.opened}\"></i>\n\t\t\t<a href=\"#\" @click.prevent=\"toggler(q)\">{{q.h}}</a>\n\t\t</h5>\n\t\t<transition name=\"answer\">\n\t\t\t<p v-show=\"q.opened\">{{q.p}}</p>\n\t\t</transition>\n\t</li>\n</ul>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<ul class=\"toggler-list\">\n\t<li v-for=\"q in questions\" :class=\"{active: q.opened}\">\n\t\t<h5>\n\t\t\t<i class=\"fa\" :class=\"\n\t\t\t\t\t{'fa-minus-square': (q.opened),\n\t\t\t\t\t'fa-plus-square': !q.opened}\"></i>\n\t\t\t<a @click.prevent=\"toggler(q)\">{{q.h}}</a>\n\t\t</h5>\n\t\t<transition name=\"answer\">\n\t\t\t<p v-show=\"q.opened\">{{q.p}}</p>\n\t\t</transition>\n\t</li>\n</ul>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -7671,5 +7692,38 @@ var vm = new Vue({
 })
 
 
+var id;
+
+var scroller = function() {
+	var curTop = window.pageYOffset;
+	var top = document.querySelector(this.hash).getBoundingClientRect().top
+	top = Math.round(top + window.pageYOffset);	
+	var temp = curTop > top ? -1 : 1;
+	var length = curTop - top;
+
+	var scr = function () {
+		if (Math.abs(length/4) < Math.abs(curTop-top)){
+			temp = Math.abs(temp) > 300 ? temp : temp*1.4;
+		}
+		else{
+			temp *= 0.95;
+		}
+		curTop += temp;
+	    window.scrollTo(0, curTop);
+		if ((temp > 0 && curTop > top)||(temp < 0 && curTop < top)){
+			cancelAnimationFrame(id);
+			console.log("exit")
+			return;
+		}
+	id = requestAnimationFrame(scr);
+	}
+
+id = requestAnimationFrame(scr);
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(function(item) {
+	console.log(item);
+	item.addEventListener('click',scroller);
+})
 
 },{"../node_modules/vue/dist/vue.min.js":3,"./components/footer-form.js":6,"./components/intro-form.js":7,"./components/middle-form.js":8,"./components/navbar.js":9,"./components/offers-list.js":10,"./components/portfolio.js":11,"./components/questions.js":12,"./components/slider.js":13,"./components/snippets.js":14}]},{},[15])

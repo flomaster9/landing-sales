@@ -7,8 +7,7 @@
 				:class="
 						{'fa-minus-square': (q.opened),
 						'fa-plus-square': !q.opened}"></i>
-				<a href="#"
-				@click.prevent="toggler(q)">{{q.h}}</a>
+				<a @click.prevent="toggler(q)">{{q.h}}</a>
 			</h5>
 			<transition name="answer">
 				<p v-show="q.opened">{{q.p}}</p>

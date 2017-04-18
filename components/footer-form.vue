@@ -72,6 +72,7 @@ $lighten-border-color: #EFEFEF;
 		textarea{
 			width: 100%;
 		}
+		
 
 		input[type="submit"]{
 			background-color: transparent;

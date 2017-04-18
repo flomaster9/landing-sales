@@ -28,4 +28,3 @@ var vm = new Vue({
 	},
 })
 
-

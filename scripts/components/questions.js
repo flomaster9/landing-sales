@@ -27,7 +27,7 @@ module.exports = {
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<ul class=\"toggler-list\">\n\t<li v-for=\"q in questions\" :class=\"{active: q.opened}\">\n\t\t<h5>\n\t\t\t<i class=\"fa\" :class=\"\n\t\t\t\t\t{'fa-minus-square': (q.opened),\n\t\t\t\t\t'fa-plus-square': !q.opened}\"></i>\n\t\t\t<a href=\"#\" @click.prevent=\"toggler(q)\">{{q.h}}</a>\n\t\t</h5>\n\t\t<transition name=\"answer\">\n\t\t\t<p v-show=\"q.opened\">{{q.p}}</p>\n\t\t</transition>\n\t</li>\n</ul>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<ul class=\"toggler-list\">\n\t<li v-for=\"q in questions\" :class=\"{active: q.opened}\">\n\t\t<h5>\n\t\t\t<i class=\"fa\" :class=\"\n\t\t\t\t\t{'fa-minus-square': (q.opened),\n\t\t\t\t\t'fa-plus-square': !q.opened}\"></i>\n\t\t\t<a @click.prevent=\"toggler(q)\">{{q.h}}</a>\n\t\t</h5>\n\t\t<transition name=\"answer\">\n\t\t\t<p v-show=\"q.opened\">{{q.p}}</p>\n\t\t</transition>\n\t</li>\n</ul>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

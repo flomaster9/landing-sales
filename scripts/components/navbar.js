@@ -5,7 +5,28 @@ var __vueify_style__ = __vueify_insert__.insert("/* line 4, stdin */\n.navbar {\
 module.exports = {
 	data: function data() {
 		return {
-			navlinks: ['Home', 'Intro', 'Portfolio', 'Features', 'Snippets', 'FAQ', 'Price'],
+			navlinks: [{
+				text: 'Home',
+				id: '#header'
+			}, {
+				text: 'Intro',
+				id: '#introductory'
+			}, {
+				text: 'Portfolio',
+				id: '#portfolio'
+			}, {
+				text: 'Features',
+				id: '#features'
+			}, {
+				text: 'Snippets',
+				id: '#snippets'
+			}, {
+				text: 'FAQ',
+				id: '#questions'
+			}, {
+				text: 'Price',
+				id: '#prices'
+			}],
 			curActive: -1, //текущее активное меню
 			isEnabled: false
 		};
@@ -34,7 +55,7 @@ module.exports = {
 	}
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<nav class=\"navbar\" :class=\"{enabled: isEnabled}\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-logo\"><a href=\"#\">Sales</a></div>\n\t\t<button class=\"navbar-toggle\" @click=\"toggleNav\"><i class=\"fa fa-bars toggler\"></i></button>\n\t\t<ul class=\"nav nav-none\">\n\t\t\t<li v-for=\"item in navlinks.length\" :key=\"item-1\">\n\t\t\t\t<a href=\"#\" :class=\"{active: (curActive == item-1 &amp;&amp; isEnabled)}\" @click=\"activeNav(item-1)\">\n\t\t\t\t\t{{navlinks[item-1]}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n</nav>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<nav class=\"navbar\" :class=\"{enabled: isEnabled}\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-logo\"><a>Sales</a></div>\n\t\t<button class=\"navbar-toggle\" @click=\"toggleNav\"><i class=\"fa fa-bars toggler\"></i></button>\n\t\t<ul class=\"nav nav-none\">\n\t\t\t<li v-for=\"item in navlinks.length\" :key=\"item-1\">\n\t\t\t\t<a :href=\"navlinks[item-1].id\" :class=\"{active: (curActive == item-1 &amp;&amp; isEnabled)}\" @click=\"activeNav(item-1)\">\n\t\t\t\t\t{{navlinks[item-1].text}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n</nav>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
