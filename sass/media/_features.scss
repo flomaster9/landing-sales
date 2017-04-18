@@ -1,0 +1,35 @@
+
+	@media (max-width:991px) {
+		.features{
+			.row{
+				flex-direction: column!important;
+			}
+			.point-list{
+				margin: auto!important;
+				width:100%!important;
+			}
+			.devices-img{
+				margin: 10px auto!important;
+			}
+			.point-list:first-child .point:last-child{
+				border-bottom: 1px solid $lighten-border-color;	
+			}
+		}
+	}	
+
+
+	@media (max-width:768px) {
+		.features{
+			.devices-img{
+				width: 60%!important;
+			}
+		}
+	}	
+
+	@media (max-width:540px) {
+		.features{
+			.devices-img{
+				width: 80%!important;
+			}
+		}
+	}	
