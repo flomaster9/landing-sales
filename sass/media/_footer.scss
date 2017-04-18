@@ -1,0 +1,30 @@
+
+	@media (max-width:991px) {
+		.footer{
+			.row{
+				flex-direction: column!important;
+			}
+			.text-details{
+				width: 100%!important;
+			}
+			.detail-group{
+				width: 48%!important;
+			}
+			.contact-form{
+				width: 100%!important;
+			}
+		}	
+	}
+
+
+	@media (max-width:768px) {
+		.footer{
+			.text-details{
+				width: 100%!important;
+				flex-direction: column!important;
+			}
+			.detail-group{
+				width: 100%!important;
+			}
+		}	
+	}

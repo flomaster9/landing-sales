@@ -7,6 +7,7 @@ var slider = require('./components/slider.js');
 var introForm = require('./components/intro-form.js');
 var middleForm = require('./components/middle-form.js');
 var questions = require('./components/questions.js');
+var footerForm = require('./components/footer-form.js');
 
 
 var vm = new Vue({
@@ -19,6 +20,7 @@ var vm = new Vue({
 		introForm: introForm,
 		middleForm: middleForm,
 		questions: questions,
+		footerForm: footerForm,
 	},
 	data:{
 		offersList: offers.items,
