@@ -4,7 +4,7 @@
 			&:not(:last-child){
 				border-bottom: 1px solid $lighten-border-color;
 			}
-			padding: 40px 0px;
+			padding: 35px 0px;
 			margin: 0px 10px;
 		}
 		i{
@@ -23,4 +23,13 @@
 		p{
 			font-size: 0.9em;
 		}
+	}
+
+
+	@media (max-width:991px) {
+		.point-list{
+			.point{
+				display: flex;
+			}
+		}	
 	}

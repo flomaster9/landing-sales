@@ -77,21 +77,5 @@
 		justify-content: space-between;
 		padding: 10px;
 		background-color: $section-bg-color;
-		.features-list{
-			margin: auto;
-			padding: 20px;
-			li{
-				padding: 10px 0;
-				font-size: 0.9em;
-				&:nth-child(odd){
-					font-weight: bold;
-				}
-			}
-			i{
-				font-size: 1.5em;
-				color: $check-ok-color;
-				padding-right: 10px;
-			}
-		}
 	}
 }
