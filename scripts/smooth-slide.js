@@ -9,7 +9,7 @@ var scroller = function() {
 
 	var scr = function () {
 		if (Math.abs(length/4) < Math.abs(curTop-top)){
-			temp = Math.abs(temp) > 300 ? temp : temp*1.4;
+			temp = Math.abs(temp) > 250 ? temp : temp*1.4;
 		}
 		else{
 			temp *= 0.95;

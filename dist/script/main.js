@@ -7703,7 +7703,7 @@ var scroller = function() {
 
 	var scr = function () {
 		if (Math.abs(length/4) < Math.abs(curTop-top)){
-			temp = Math.abs(temp) > 300 ? temp : temp*1.4;
+			temp = Math.abs(temp) > 250 ? temp : temp*1.4;
 		}
 		else{
 			temp *= 0.95;
@@ -7712,7 +7712,6 @@ var scroller = function() {
 	    window.scrollTo(0, curTop);
 		if ((temp > 0 && curTop > top)||(temp < 0 && curTop < top)){
 			cancelAnimationFrame(id);
-			console.log("exit")
 			return;
 		}
 	id = requestAnimationFrame(scr);
@@ -7722,7 +7721,6 @@ id = requestAnimationFrame(scr);
 }
 
 document.querySelectorAll('a[href^="#"]').forEach(function(item) {
-	console.log(item);
 	item.addEventListener('click',scroller);
 })
 
