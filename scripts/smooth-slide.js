@@ -18,7 +18,6 @@ var scroller = function() {
 	    window.scrollTo(0, curTop);
 		if ((temp > 0 && curTop > top)||(temp < 0 && curTop < top)){
 			cancelAnimationFrame(id);
-			console.log("exit")
 			return;
 		}
 	id = requestAnimationFrame(scr);
@@ -28,6 +27,5 @@ id = requestAnimationFrame(scr);
 }
 
 document.querySelectorAll('a[href^="#"]').forEach(function(item) {
-	console.log(item);
 	item.addEventListener('click',scroller);
 })
